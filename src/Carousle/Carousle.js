@@ -25,7 +25,9 @@ const Carousle = () => {
 
   return (
     <>
+    <body>
 
+    
     <div className="Carousle">
     <div className="Review">
         <h2>Let's see what our clients says</h2>
@@ -82,6 +84,7 @@ const Carousle = () => {
         </div>
 
     </div>
+    </body>
     </>
   )
 };
