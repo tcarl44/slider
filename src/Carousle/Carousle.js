@@ -32,7 +32,10 @@ const Carousle = () => {
     <div className="Review">
         <h2>Let's see what our clients says</h2>
     </div>
-   
+        <div className="between">
+            <button className="prev" onClick={prev}>
+                👈
+            </button>
         <div className="CarousleContainer">
 
             <div className="CarousleItem">
@@ -79,13 +82,13 @@ const Carousle = () => {
                 </div>
             </div>
         </div>
-        <div>
-           <button className="prev" onClick={prev}>
-                prev
-            </button>
         <button className="next" onClick={next}>
-            next
+            👉
         </button>
+        </div>
+        <div>
+           
+
         </div>
 
     </div>
