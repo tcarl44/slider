@@ -11,13 +11,11 @@ const Carousle = () => {
         const box = getBox();
         const width = box.clientWidth;
         box.scrollLeft = box.scrollLeft - width;
-        // return next();
     };
 
     const next = () => {
         const box = getBox();
         const width = box.clientWidth;
-        // console.log("next width: " + box.clientWidth)
         box.scrollLeft = box.scrollLeft + width;
     };
 
@@ -30,7 +28,7 @@ const Carousle = () => {
     
     <div className="Carousle">
     <div className="Review">
-        <h2>Let's see what our clients says</h2>
+        <h2>Let's see client's Review</h2>
     </div>
         <div className="between">
             <button className="prev" onClick={prev}>
@@ -40,45 +38,16 @@ const Carousle = () => {
 
             <div className="CarousleItem">
                 <div className="List">
-                    <h1>Mikel</h1>
+                    <h1><img src="../Image/Screenshot from 2023-09-28 12-27-00.png" alt="A beautiful sunset" />Mary</h1>
                     <p>Only natural ingredients, grown and produced in the village , with care and love for out health, love and longevity ! I always choose only you, I have never regretted it!</p>
                     ⭐⭐⭐⭐⭐⭐
-                    <p>1</p>
-                </div>
-            </div>
-
-            <div className="CarousleItem">
-                <div className="List">
-                <h1>Bradon</h1>
-                    <p>Only natural ingredients, grown and produced in the village , with care and love for out health, love and longevity ! I always choose only you, I have never regretted it!</p>
-                    ⭐⭐⭐⭐⭐⭐
-                    <p>2</p>
-                </div>
-            </div>
-
-            <div className="CarousleItem">
-                <div className="List">
-                <h1>Carlsen</h1>
-                    <p>Only natural ingredients, grown and produced in the village , with care and love for out health, love and longevity ! I always choose only you, I have never regretted it!</p>
-                    ⭐⭐⭐⭐⭐⭐
-                    <p>3</p>
-                </div>
-            </div>
-
-            <div className="CarousleItem">
-                <div className="List">
-                <h1>John</h1>
-                    <p>Only natural ingredients, grown and produced in the village , with care and love for out health, love and longevity ! I always choose only you, I have never regretted it!</p>
-                    ⭐⭐⭐⭐⭐⭐
-                    <p>4</p>
                 </div>
             </div>
             <div className="CarousleItem">
                 <div className="List">
-                <h1>Ronnet</h1>
+                <h1><img src="../Image/Screenshot from 2023-09-28 12-27-29.png" alt=""></img>Courage</h1>
                     <p>Only natural ingredients, grown and produced in the village , with care and love for out health, love and longevity ! I always choose only you, I have never regretted it!</p>
                     ⭐⭐⭐⭐⭐⭐
-                    <p>5</p>
                 </div>
             </div>
         </div>
