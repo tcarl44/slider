@@ -13,6 +13,23 @@
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
     gap: 0.2rem;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    animation: backgroundAnimation 10s linear infinite;
+    /* background-color: rgba(0,0,0,0.57) */
+}
+
+@keyframes backgroundAnimation{
+    0%{
+        background-color: #554e4e;
+    }
+    50%{
+        background-color: #a5723a;
+    }
+    100%{
+        background-color: #494921;
+    }
 }
 
 button{
